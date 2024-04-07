@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
 
+// Adjust the path as needed
+import Home from './Components/Home';
 const App = () => {
   return (
-    <div>
-      <h1>app</h1>
-    </div>
-  )
-}
+   <>
+   <Home/>
+   
+   </>
+  );
+};
 
-export default App
-
+export default App;

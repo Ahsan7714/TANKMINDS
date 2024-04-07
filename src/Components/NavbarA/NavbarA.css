@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins' , sans-serif;
+}
+.nav_1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+     background-color: #ffffff; 
+     width: 98%;
+    
+  }
+  
+  
+  .nav_1 .list ul{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .list li {
+    display: inline;
+    border-left: 1px solid black; 
+    margin-right: 4px;
+    padding-left: 8px;
+    color: black  ;
+  }
+
+  .list li:first-child {
+    border-left: none; 
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  }
+  
+  .btn_nav_1 button{
+   border: none;
+   background-color: #ffffff;
+   margin-right:8px ;
+   cursor: pointer;
+   padding: 5px;
+   transition: background-color 0.3s ease;
+  }
+  .btn_nav_1 button:hover{
+   border: 1px solid #d9d9d9;
+   border-radius: 5px;
+  }
+  .right ul li a {
+    text-decoration: none; 
+    color: black; 
+  }
+
+
+
+
+
+/* second navbar */
+
+.nav_b{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right:3%;
+}
+.nav_b .left{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 64px; */
+  flex: 1;
+}
+.left .none{
+color: white;
+}
+.phone_no{
+  align-items: center;
+  justify-content: center;
+}
+.phone_no h3{
+  display: flex;
+  align-items: center;
+}
+.phone_no h3 span{
+  font-size: 15px;
+  font-weight: 5000;
+}
+  .logo img{
+    height: 60px;
+    width: 150px;
+  }
+
+
+
+
+
+  /* -----------------------------------middle input-------------------------------------- */
+
+
+.middle{
+  flex: 1;
+}
+
+  .middle input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+
+
+/* ----------------------------------  right---------------------------- */
+
+
+  .right{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 350px;
+    flex: 1;
+  }
+  
+
+  
+  
+  .right ul{
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    align-items: center;
+  }
+  
+  .right ul li a {
+    text-decoration: none; 
+    color: black;
+    display: flex;
+    font-size: 15px;
+  align-items: center; 
+  }
+  
+  .right ul li a .feedbackIcon {
+    height: 18px; /* Adjust the height of the icon */
+    margin-right: 5px; /* Add a 4px gap between the icon and text */
+  }
+  
+  @media (max-width: 768px) {
+    .nav_b {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav_b .left {
+      margin-bottom: 10px;
+    }
+  
+    .middle input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .right ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  

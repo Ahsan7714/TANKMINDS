@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+   .nav_c{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbf9f7;
+    padding-right: 3%;
+    padding-right: 3%;
+    height: 60px;
+    align-items: center;
+    
+    
+  }
+  .left-nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 25px;
+    
+  }
+  .nav_c .left-nav ul {
+      list-style-type: none;
+      padding: 0; 
+      margin: 0; 
+      gap: 40px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+   .nav_c .left-nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14PX;
+    font-weight: 600;
+    color: inherit;
+   }
+   .dropdown{
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    /* height: 500px; */
+    height: auto;
+    top: 30px;
+    width: 1300px;
+    align-items: flex-start;
+    gap: 19px;
+    justify-content: center;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+  
+   }
+  
+  
+  
+   .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    height: 160px;
+    width: 150px;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    margin-top: 20px; 
+    
+    
+  }
+  .card img{
+    border-radius: 50%;
+    height: 100px;
+    background-color: #d9d9d9;
+  }
+  
+  .card h3 {
+    font-size: 180px;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333; 
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* right nav */
+  
+  .right-nav{
+    display: flex;
+    gap: 30px;
+    
+   }
+   .right-nav button{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+   }
+   .right-nav>:nth-child(1){
+     padding: 8px 18px;
+     background-color: #02b4a6;
+   }
+   .right-nav>:nth-child(2){
+    padding: 5px 18px;
+    background-color: #ddf2fa;
+    color: black;
+  }
+  .right-nav>:nth-child(3){
+    padding: 5px 18px;
+    background-color: #ff7070;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .right-nav>:nth-child(3) img{
+    height: 18px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+    
