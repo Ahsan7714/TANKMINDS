@@ -3,8 +3,11 @@ import React, { useState } from 'react';
 import { BsWhatsapp } from 'react-icons/bs';
 import './AuthPopUp.css';
 import { IoCloseCircleOutline } from 'react-icons/io5';
+import { useAuthPopUp } from '../../context/authPopUpContext';
 
-const AuthPopUp = ({ type, onClose, onOpen }) => {
+const AuthPopUp = () => {
+  const {  type, onClose, onOpen } = useAuthPopUp();
+
   const [signInData, setSignInData] = useState({
     pin: '',
     wantUpdatesOnWhatsapp: false,

@@ -5,8 +5,16 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { FaLowVision } from "react-icons/fa";
 import logo from './../../images/WEB-3-removebg-preview.png'
 import feedbackIcon from './../../images/feedbackIcon.svg'
+import { useAuthPopUp } from '../../context/authPopUpContext';
 
 const NavbarA = () => {
+  const { setShowModal,showModal, type, onClose, onOpen,setType } = useAuthPopUp();
+
+  const handleShowPopUp = () => {
+    setType('signIn');
+    setShowModal(true);
+  }
+
   return (
     <>
       <div className='nav_1'>
@@ -52,7 +60,7 @@ const NavbarA = () => {
           <ul>
             <li><Link to="">Complaint</Link></li>
             {/* Sign In and Sign Up wrapped in a single Link */}
-            <li>
+            <li onClick={()=>handleShowPopUp()}>
               <Link to="">
               <span>Sign In&nbsp;</span>&&nbsp;<span>Sign Up</span>
               </Link>

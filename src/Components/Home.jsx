@@ -1,5 +1,4 @@
-// Home.jsx
-import React, { useState } from 'react';
+import React from 'react';
 import NavbarA from './NavbarA/NavbarA';
 import NavbarB from './NavbarB/NavbarB';
 import LandingCarasoule from './LandingCarasoule/LandingCarasoule';
@@ -7,19 +6,10 @@ import Card from './Card/Card';
 import LegalWayBanner from './LegalWayBanner/LegalWayBanner';
 import WhatWeDeal from './WhatWeDeal/WhatWeDeal';
 import AuthPopUp from './AuthPopUp/AuthPopUp';
+import { useAuthPopUp } from '../context/authPopUpContext';
 
 const Home = () => {
-  const [showModal, setShowModal] = useState(true);
-  const [type, setType] = useState('signIn');
-
-  const onClose = () => {
-    setShowModal(false);
-  };
-
-  const onOpen = (type) => {
-    setShowModal(true);
-    setType(type);
-  };
+  const { showModal, type, onClose, onOpen } = useAuthPopUp();
 
   return (
     <div>
@@ -31,9 +21,6 @@ const Home = () => {
       <WhatWeDeal />
       {showModal && (
         <AuthPopUp
-          type={type}
-          onClose={onClose}
-          onOpen={onOpen}
         />
       )}
     </div>
