@@ -86,9 +86,10 @@ const WhatWeDeal = () => {
   height={800}
   ssr={true} 
   infinite={true}
+  
   autoPlaySpeed={1000}
   keyBoardControl={true}
-  customTransition="all .5"
+  customTransition="transform 500ms ease-in-out"
   transitionDuration={500}
   containerClass="carousel-container"
   arrows={true} 
