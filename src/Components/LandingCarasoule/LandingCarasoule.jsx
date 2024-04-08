@@ -67,6 +67,7 @@ const LandingCarasoule = () => {
               
                 <div className='carasoule-item slide_2'>
                 <img src="./images/background.jpg" alt="" />
+                <div className='dummy_div_to_hold_space'></div>
                 <div className="slide2_content">
                     <div className="upper_header">
                     <button><IoCloseCircleOutline /> <span>now wait</span></button>

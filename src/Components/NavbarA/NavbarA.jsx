@@ -8,7 +8,7 @@ import feedbackIcon from './../../images/feedbackIcon.svg'
 import { useAuthPopUp } from '../../context/authPopUpContext';
 
 const NavbarA = () => {
-  const { setShowModal,showModal, type, onClose, onOpen,setType } = useAuthPopUp();
+  const { setShowModal,setType } = useAuthPopUp();
 
   const handleShowPopUp = () => {
     setType('signIn');
