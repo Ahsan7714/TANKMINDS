@@ -1,0 +1,92 @@
+.whatWeDeal{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.whatWeDeal__carasoule{
+    width: 75%;
+    height: 100%;
+
+}
+
+.whatWeDeal__heading{
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
+.whatWeDeal__heading b{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    display: block;
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin-top: 10px;
+    
+}
+.whatWeDeal__heading p{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.single_what_we_deal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_what_we_deal img{
+    width: 100px;
+    height: 100px;
+}
+.single_what_we_deal h1{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.single_what_we_deal button{
+    background-color: #14BAC6;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 17px;
+}
+
+
+.whatWeDeal__carasoule .react-multiple-carousel__arrow--left {
+    left: calc(-1.5% + 1px);
+}
+.whatWeDeal__carasoule .react-multiple-carousel__arrow--right {
+    right: calc(-1.5% + 1px);
+}
+.whatWeDeal__carasoule .react-multiple-carousel__arrow{
+    background-color: transparent;
+}
+
+.whatWeDeal__carasoule .react-multiple-carousel__arrow::before{
+    color: gray;
+    font-size: 28px !important;
+}
+.whatWeDeal__carasoule .react-multiple-carousel__arrow::after{
+    color: gray;
+    font-size: 28px !important;
+}
