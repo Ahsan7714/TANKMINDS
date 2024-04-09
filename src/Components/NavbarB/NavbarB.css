@@ -94,7 +94,8 @@
   .right-nav{
     display: flex;
     gap: 30px;
-    
+    text-align: center;
+    justify-content: center;
    }
    .right-nav button{
     border: none;

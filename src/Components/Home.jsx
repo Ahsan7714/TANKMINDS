@@ -7,6 +7,7 @@ import LegalWayBanner from './LegalWayBanner/LegalWayBanner';
 import WhatWeDeal from './WhatWeDeal/WhatWeDeal';
 import AuthPopUp from './AuthPopUp/AuthPopUp';
 import { useAuthPopUp } from '../context/authPopUpContext';
+import Banner from './Banner/Banner.jsx';
 
 const Home = () => {
   const { showModal, type, onClose, onOpen } = useAuthPopUp();
@@ -23,6 +24,7 @@ const Home = () => {
         <AuthPopUp
         />
       )}
+      <Banner/>
     </div>
   );
 };

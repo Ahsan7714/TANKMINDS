@@ -67,6 +67,7 @@ const WhatWeDeal = () => {
 
 
   return (
+    <>
     <div className='whatWeDeal'>
 
         <div className='whatWeDeal__heading'>
@@ -115,6 +116,10 @@ const WhatWeDeal = () => {
 
 
     </div>
+    <div>
+        
+    </div>
+    </>
   )
 }
 
