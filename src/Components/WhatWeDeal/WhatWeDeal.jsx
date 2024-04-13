@@ -116,9 +116,7 @@ const WhatWeDeal = () => {
 
 
     </div>
-    <div>
-        
-    </div>
+   
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Banner.css'
 import BannerIng from './../../../../frontend/public/images/bannerImg.png'
+// import blur from './../../../../frontend/public/images/blur.png'
 
 const Banner = () => {
   return (
@@ -20,6 +21,7 @@ const Banner = () => {
     </div>
     <div className='right-side'>
         <img src={BannerIng} alt="" />
+        {/* <img src={blur} alt="" /> */}
     </div>
 </div>
   )

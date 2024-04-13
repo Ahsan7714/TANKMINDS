@@ -1,0 +1,110 @@
+.Register{
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.Register-heading{
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
+.Register-heading b{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    display: block;
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin-top: 10px;
+}
+.Register-heading p{
+    align-items: end;
+    justify-content: end;
+    float: right;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.Register-cards{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 40px;
+}
+.RegisterCard_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.RegisterCard_details img{
+    width: 100px;
+    height: 100px;
+}
+/* .RegisterCard_details>:nth-child(4) img{
+    width: 85px;
+    height: 850px;
+} */
+.RegisterCard_details h1{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.RegisterCard_details .btn{
+    background-color:#3589cd;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

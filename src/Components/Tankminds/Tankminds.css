@@ -1,0 +1,26 @@
+.Tankminds{
+    background-color: magenta;
+    height: 250px;
+    display: flex;
+}
+.Tankminds_left {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    background-color: #fa4d4e;
+}
+.Tankminds_left p{
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: 'Outfit', sans-serif;
+    text-transform: capitalize;
+    border-left: 2px solid #fff;
+    color: white;
+}
+.Tankminds_right{
+    width: 30%;
+}
+.Tankminds_right img{
+    height: 250px;
+}

@@ -1,0 +1,87 @@
+.CourtDegree{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.CourtDegree-heading{
+    
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
+.CourtDegree-heading b{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    display: block;
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin-top: 10px;
+}
+.CourtDegree-heading .Intime{
+    align-items: end;
+    justify-content: end;
+    float: right;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+}
+.CourtDegree-heading>:nth-child(1){
+    font-size: 48px;
+}
+.CourtDegree-heading>:nth-child(2){
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.CourtDegree-heading>:nth-child(3){
+    font-size: 18px;
+    /* align-items: end; */
+}
+.CourtDegree-cards{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 40px;
+}
+.Cards_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.CourtDegree-cards .Cards_details img{
+    width: 100px;
+    height: 100px;
+}
+.Cards_details h1{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.Cards_details .btn{
+    background-color: #14BAC6;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 17px;
+}
