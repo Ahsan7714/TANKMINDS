@@ -1,6 +1,6 @@
 import React from 'react'
 import './InternshipOffer.css'
-import Internship from './../../../../frontend/public/images/Internship.png'
+import Internship from './../../../public/images/Internship.png'
 
 const InternshipOffer = () => {
   return (

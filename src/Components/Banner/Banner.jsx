@@ -1,8 +1,8 @@
 import React from 'react'
 import './Banner.css'
-import BannerIng from './../../../../frontend/public/images/bannerImg.png'
+// import BannerIng from '.bannerImg.png'
 // import blur from './../../../../frontend/public/images/blur.png'
-
+import BannerIng from './../../../public/images/bannerImg.png'
 const Banner = () => {
   return (
     <div className='container'>

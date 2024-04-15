@@ -1,6 +1,6 @@
 import React from 'react'
 import './PaidMediation.css'
-import middleImg from './../../../../frontend/public/images/middle.png'
+import middleImg from './../../../public/images/middle.png'
 
 const PaidMediation = () => {
   return (

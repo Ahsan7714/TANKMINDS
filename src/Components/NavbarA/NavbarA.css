@@ -113,7 +113,7 @@ color: white;
   flex: 1;
 }
 
-  .middle input{
+  .middle .search{
     width: 90%;
     height: 30px;
     border: 1px solid #8080A0;

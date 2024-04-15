@@ -52,7 +52,7 @@ const NavbarA = () => {
         </div>
 {/*---------------------- middle-------------------- */}
         <div className="middle">
-          <input type="text" placeholder='What are you looking for?' />
+          <input className='search' type="text" placeholder='What are you looking for?' />
         </div>
 {/*---------------------- right-------------------- */}
 

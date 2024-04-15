@@ -1,10 +1,10 @@
 import React from 'react'
 import './Tax.css'
-import TaxA from './../../../../frontend/public/images/TaxA.png'
-import TaxB from './../../../../frontend/public/images/TaxB.png'
-import TaxC from './../../../../frontend/public/images/TaxC.png'
-import TaxD from './../../../../frontend/public/images/TaxD.png'
-import BannerIng from './../../../../frontend/public/images/bannerImg.png'
+import TaxA from './../../../public/images/TaxA.png'
+import TaxB from './../../../public/images/TaxB.png'
+import TaxC from './../../../public/images/TaxC.png'
+import TaxD from './../../../public/images/TaxD.png'
+// import BannerIng from './../../../public/images/bannerImg.png'
 
 const Tax = () => {
   return (
