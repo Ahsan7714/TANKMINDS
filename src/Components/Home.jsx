@@ -15,6 +15,7 @@ import PaidMediation from './PaidMediation/PaidMediation.jsx';
 import CriminalMatters from './CriminalMatters/CriminalMatters.jsx';
 import Register from './Register/Register.jsx';
 import Tankminds from './Tankminds/Tankminds.jsx';
+import Feedback from './Feedback/Feedback.jsx';
 
 const Home = () => {
   const { showModal, type, onClose, onOpen } = useAuthPopUp();
@@ -39,6 +40,7 @@ const Home = () => {
       <CriminalMatters/>
       <Tankminds/>
       <Register/>
+      <Feedback/>
     </div>
   );
 };
