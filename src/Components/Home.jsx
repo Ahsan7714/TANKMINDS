@@ -1,8 +1,5 @@
 import React from 'react';
-import NavbarA from './NavbarA/NavbarA';
-import NavbarB from './NavbarB/NavbarB';
 import LandingCarasoule from './LandingCarasoule/LandingCarasoule';
-import Card from './Card/Card';
 import LegalWayBanner from './LegalWayBanner/LegalWayBanner';
 import WhatWeDeal from './WhatWeDeal/WhatWeDeal';
 import AuthPopUp from './AuthPopUp/AuthPopUp';
@@ -15,15 +12,13 @@ import PaidMediation from './PaidMediation/PaidMediation.jsx';
 import CriminalMatters from './CriminalMatters/CriminalMatters.jsx';
 import Register from './Register/Register.jsx';
 import Tankminds from './Tankminds/Tankminds.jsx';
+import Feedback from './Feedback/Feedback.jsx';
 
 const Home = () => {
   const { showModal, type, onClose, onOpen } = useAuthPopUp();
 
   return (
     <div>
-      <NavbarA />
-      <NavbarB />
-      <Card />
       <LandingCarasoule />
       <LegalWayBanner />
       <WhatWeDeal />
@@ -39,6 +34,7 @@ const Home = () => {
       <CriminalMatters/>
       <Tankminds/>
       <Register/>
+      <Feedback/>      
     </div>
   );
 };

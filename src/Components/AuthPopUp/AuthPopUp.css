@@ -60,9 +60,9 @@
 
   
   input[type="text"],
-  input[type="password"] {
+  input[type="password"] .loginSearch {
     width: 100%;
-    padding: 18px 20px;
+    padding: 12px 20px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -107,7 +107,7 @@
     }
   .signin_btn {
     width: 100%;
-    padding: 18px 20px;
+    padding: 12px 20px;
     background-color: #E4E4E4;
     color: black;
     text-transform: capitalize;

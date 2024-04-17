@@ -5,6 +5,7 @@ import Court2 from './../../../public/images/court_2.png'
 import Court3 from './../../../public/images/court_3.png'
 import Court4 from './../../../public/images/court_4.png'
 // import BannerIng from './../../public/images/bannerImg.png'
+// import BannerIng from './../../../../frontend/public/images/bannerImg.png'
 const CourtDegree = () => {
   return (
     <div className='CourtDegree'>

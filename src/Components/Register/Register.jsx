@@ -4,6 +4,10 @@ import RegisterA from '../../../public/images/RegisterA.png'
 import RegisterB from '../../../public/images/RegisterB.png'
 import RegisterC from '../../../public/images/RegisterC.png'
 import RegisterD from '../../../public/images/RegisterD.png'
+import RegisterA from './../../../public/images/RegisterA.png'
+import RegisterB from './../../../public/images/RegisterB.png'
+import RegisterC from './../../../public/images/RegisterC.png'
+import RegisterD from './../../../public/images/RegisterD.png'
 
 const Register = () => {
   return (

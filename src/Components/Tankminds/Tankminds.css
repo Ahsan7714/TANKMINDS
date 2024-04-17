@@ -1,7 +1,7 @@
 .Tankminds{
-    background-color: magenta;
     height: 250px;
     display: flex;
+    width: 100%;
 }
 .Tankminds_left {
     align-items: center;

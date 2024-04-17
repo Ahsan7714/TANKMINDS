@@ -5,6 +5,7 @@ import TaxB from './../../../public/images/TaxB.png'
 import TaxC from './../../../public/images/TaxC.png'
 import TaxD from './../../../public/images/TaxD.png'
 // import BannerIng from './../../../../frontend/public/images/bannerImg.png'
+// import BannerIng from './../../../public/images/bannerImg.png'
 
 const Tax = () => {
   return (

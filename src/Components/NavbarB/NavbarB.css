@@ -7,8 +7,7 @@
     padding-right: 3%;
     height: 60px;
     align-items: center;
-    
-    
+    width: 100%;
   }
   .left-nav{
     display: flex;
@@ -29,8 +28,8 @@
    .nav_c .left-nav ul li a{
     text-decoration: none;
     list-style-type: none;
-    font-size: 14.8PX;
-    font-weight: 600;
+    font-size: 14PX;
+    font-weight: 500;
     font-family: 'Outfit';
     color: inherit;
    }
@@ -40,8 +39,7 @@
     z-index: 1000;
     background-color: white;
     display: flex;
-    /* height: 500px; */
-    height: auto;
+    height: 200px;
     top: 30px;
     width: 1300px;
     align-items: flex-start;
@@ -93,9 +91,10 @@
   
   .right-nav{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
     justify-content: center;
+    margin-right: -30px;
    }
    .right-nav button{
     border: none;
@@ -103,17 +102,16 @@
     color: white;
     cursor: pointer;
     font-family: 'Outfit';
+    font-size: 14px;
    }
    .right-nav>:nth-child(1){
      padding: 8px 18px;
      background-color: #02b4a6;
-     font-size: 15px;
    }
    .right-nav>:nth-child(2){
     padding: 5px 18px;
     background-color: #ddf2fa;
     color: black;
-    font-size: 15px;
 
   }
   .right-nav>:nth-child(3){
@@ -122,7 +120,6 @@
     gap: 8px;
     display: flex;
     align-items: center;
-    font-size: 16px;
 
   }
   .right-nav>:nth-child(3) img{

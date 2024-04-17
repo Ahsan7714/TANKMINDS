@@ -62,6 +62,7 @@ const AuthPopUp = () => {
               <form>
                 <label htmlFor="sigin_pin">Pin Code</label>
                 <input
+                  className='loginSearch'
                   type="text"
                   placeholder="Enter the Pin Code"
                   name="pin"
@@ -101,10 +102,10 @@ const AuthPopUp = () => {
             <IoCloseCircleOutline />
             </div>
             <h1>Create An Account </h1>
-            <input type="text" placeholder="First Name*" />
-            <input type="text" placeholder="Last Name*" />
-            <input type="text" placeholder="Mobile Number*" />
-            <input type="text" placeholder="Pin Code*" />
+            <input className='loginSearch' type="text" placeholder="First Name*" />
+            <input className='loginSearch' type="text" placeholder="Last Name*" />
+            <input className='loginSearch' type="text" placeholder="Mobile Number*" />
+            <input className='loginSearch' type="text" placeholder="Pin Code*" />
             <span className="whatsapp_span">
             <input type="checkbox" id="signup_whatsapp_status" />
             <label htmlFor="signup_whatsapp_status">

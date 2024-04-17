@@ -20,7 +20,7 @@ const NavbarA = () => {
       <div className='nav_1'>
         <div className='list'>
           <ul>
-            <li><Link to="">Client Portal</Link></li>
+            <li><Link to="/client-portal">Client Portal</Link></li>
             <li><Link to="">Offices</Link></li>
             <li><Link to="">Team</Link></li>
             <li><Link to="">About</Link></li>
@@ -40,9 +40,9 @@ const NavbarA = () => {
       <div className='nav_b'>
 
         <div className='left'>
-          <div className='logo'>
+          <Link to={"/"} className='logo'>
             <img src={logo} alt="logo" />
-          </div>
+          </Link>
           <div className='phone_no'>
             <h3><MdOutlinePhoneInTalk /><span>+92-334-4164441</span></h3>
           </div>
@@ -52,7 +52,7 @@ const NavbarA = () => {
         </div>
 {/*---------------------- middle-------------------- */}
         <div className="middle">
-          <input type="text" placeholder='What are you looking for?' />
+          <input className='search' type="text" placeholder='What are you looking for?' />
         </div>
 {/*---------------------- right-------------------- */}
 
