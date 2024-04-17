@@ -1,0 +1,56 @@
+.feedback{
+    height: 250px;
+    display: flex;
+    width: 100%;
+    font-family: 'outfit';
+}
+.leftFeedback{
+    background:linear-gradient(to right, #000000, #303741);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    color: white;
+    justify-content: space-around;
+}
+.left_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.left_text h5{
+    font-size: 24px;
+}
+.left_text span{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.feedbackText{
+    margin-bottom: 20px;
+}
+.left_text button{
+    /* padding: 8px;
+    border-radius: 30px;
+    margin-top: 10px; */
+    background-color: #fff;
+    color:black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    /* margin-top: 20px; */
+    border: 1px solid black;
+}
+.right_text{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-left: 1px solid white;
+    padding-left: 10%;
+}
+.feedback-Img img{
+    height: 250px;
+}
