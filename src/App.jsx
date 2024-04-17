@@ -9,11 +9,15 @@ import Team from './Pages/AdminDashboard/Team/Team';
 import Client from './Pages/AdminDashboard/Clients/Client';
 import Inbox from './Pages/AdminDashboard/Inbox/Inbox';
 import ClientPortalPage from './Pages/ClientPortalPage/ClientPortalPage';
+import NavbarA from './Components/NavbarA/NavbarA';
+import NavbarB from './Components/NavbarB/NavbarB';
+import Footer from './Components/Footer/Footer';
+import Card from './Components/Card/Card';
 const App = () => {
   return (
    <>
    <header>
-          <NavbarA />
+          <NavbarA/>
       <NavbarB />
       <Card />
    </header>
@@ -29,7 +33,7 @@ const App = () => {
     <Route path='/chat' element={<Inbox/>}/>
    </Routes>
    <footer>
-<Footer/>  
+      <Footer/>  
 </footer>  
    
 

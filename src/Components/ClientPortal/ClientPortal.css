@@ -223,13 +223,15 @@ text-align: left;
   .chatbot{
     height: 600px;
     display: flex;
+    gap: 80px;
     background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 80px;
+    border-radius: 2px;
   }
   .chat{
     width: 597px;
     height: 639px;
-    top: 789px;
-    left: 68px;
     gap: 0px;
     opacity: 0px;
     
@@ -237,36 +239,33 @@ text-align: left;
   }
   .chat h1{
     font-family: Outfit;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 18.9px;
     text-align: left;
+    padding: 8px;
     color:  rgba(221, 242, 250, 1);
     background: rgba(0, 18, 84, 1);
   }
   .liveChat{
     width: 597px;
-height: 400px;
-top: 789px;
-left: 68px;
-gap: 0px;
-opacity: 0px;
+height: 450px;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
 background-color: #e7fcff;
-margin-top: 4%;
+padding: 20px 10px;
   }
   .messageContainer1 {
     width: 294px;
     height: 72px;
-    left: 103px;
     gap: 0px;
     border-radius: 32px;
     opacity: 0px;
     background: rgba(255, 255, 255, 1);
-    background-color: pink;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Add some margin to create distance */
-    margin-left: 8px;
     
   }
   
@@ -305,13 +304,11 @@ margin-top: 4%;
     border-radius: 32px;
     opacity: 0px;
     background: rgba(255, 255, 255, 1);
-    background-color: pink;
-    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     align-items: center;
-    justify-content: flex-end; /* Align to the right side */
-    margin-left: auto; /* Push to the right side */
-    margin-right: 8px;
-    margin-bottom: 20px; /* Add some margin to create distance */
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
   }
 .messageContainer2 img{
   margin: 10px;
@@ -322,6 +319,43 @@ margin-top: 4%;
   
   .documentsDetails{
     flex: 1;
+  }
+ 
+  .doc-h{
+    background: #ddf2fa;
+    color: #001254;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .documents-a{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    padding-left: 10px;
+  }
+  .documents-a1{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 19px;
+  }
+  .documents-a2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .documents-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .documents-b svg{
+    font-size: 50px;
   }
 
 
