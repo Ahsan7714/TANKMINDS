@@ -1,10 +1,10 @@
 import React from 'react'
 import './CourtDegree.css'
-import CourtA from './../../../../frontend/public/images/courtA.png'
-import Court2 from './../../../../frontend/public/images/court_2.png'
-import Court3 from './../../../../frontend/public/images/court_3.png'
-import Court4 from './../../../../frontend/public/images/court_4.png'
-import BannerIng from './../../../../frontend/public/images/bannerImg.png'
+import CourtA from './../../../public/images/courtA.png'
+import Court2 from './../../../public/images/court_2.png'
+import Court3 from './../../../public/images/court_3.png'
+import Court4 from './../../../public/images/court_4.png'
+// import BannerIng from './../../public/images/bannerImg.png'
 const CourtDegree = () => {
   return (
     <div className='CourtDegree'>

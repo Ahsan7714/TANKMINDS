@@ -1,9 +1,9 @@
 import React from 'react'
 import './CriminalMatters.css'
-import CriminalMattersA from './../../../../frontend/public/images/CMA.png'
-import CriminalMattersB from './../../../../frontend/public/images/CMB.png'
-import CriminalMattersC from './../../../../frontend/public/images/CMC.png'
-import CriminalMattersD from './../../../../frontend/public/images/CMD.png'
+import CriminalMattersA from './../../../public/images/CMA.png'
+import CriminalMattersB from './../../../public/images/CMB.png'
+import CriminalMattersC from './../../../public/images/CMC.png'
+import CriminalMattersD from './../../../public/images/CMD.png'
 
 const CriminalMatters = () => {
   return (

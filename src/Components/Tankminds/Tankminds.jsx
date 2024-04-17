@@ -1,6 +1,6 @@
 import React from 'react'
 import './Tankminds.css'
-import Tankmind from './../../../../frontend/public/images/tankminds.png'
+import Tankmind from './../../../public/images/tankminds.png'
 
 const Tankminds = () => {
   return (
